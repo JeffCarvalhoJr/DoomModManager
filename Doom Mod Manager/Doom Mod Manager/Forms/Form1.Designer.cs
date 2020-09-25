@@ -224,6 +224,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(689, 424);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Controls.Add(this.BTN_DeleteProfile);
             this.Controls.Add(this.BTN_SaveProfile);
             this.Controls.Add(this.BTN_RunDoom);
@@ -244,7 +246,7 @@
             this.Controls.Add(this.LBL_ModList);
             this.Controls.Add(this.LSTBOX_ModList);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "DOOM Mod Manager";
             this.ResumeLayout(false);
             this.PerformLayout();
 
