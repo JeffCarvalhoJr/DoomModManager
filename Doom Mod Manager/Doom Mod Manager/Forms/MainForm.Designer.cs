@@ -199,7 +199,7 @@
             this.BTN_RunDoom.Size = new System.Drawing.Size(220, 45);
             this.BTN_RunDoom.TabIndex = 10;
             this.BTN_RunDoom.Text = "Run";
-            this.BTN_RunDoom.UseVisualStyleBackColor = true;
+            this.BTN_RunDoom.UseVisualStyleBackColor = true; 
             // 
             // BTN_SaveProfile
             // 
@@ -224,8 +224,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(689, 424);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
             this.Controls.Add(this.BTN_DeleteProfile);
             this.Controls.Add(this.BTN_SaveProfile);
             this.Controls.Add(this.BTN_RunDoom);
@@ -245,6 +243,8 @@
             this.Controls.Add(this.BTN_AddMod);
             this.Controls.Add(this.LBL_ModList);
             this.Controls.Add(this.LSTBOX_ModList);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "DOOM Mod Manager";
             this.ResumeLayout(false);

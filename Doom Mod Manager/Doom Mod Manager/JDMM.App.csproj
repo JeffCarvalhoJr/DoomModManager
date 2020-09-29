@@ -7,4 +7,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JDMM.Domain.Repos.Impl\JDMM.Domain.Repos.Impl.csproj" />
+  </ItemGroup>
+
 </Project>
